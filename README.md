@@ -14,29 +14,26 @@ The system allows users to:
 
 ## 🗂️ Project Folder Structure
 
-ProjectRoot/
-│
-├── app.py                     # Main Streamlit app
-├── requirements.txt           # All required Python packages
-├── vocab.pkl                  # Vocabulary file
-├── caption_model.pth          # Trained model weights
-├── last_ver.py                # Model classes (Encoder/Decoder/Vocabulary)
-│
+Root/
+├── app.py # Main Streamlit app
+├── requirements.txt # All required Python packages
+├── vocab.pkl # Vocabulary file
+├── caption_model.pth # Trained model weights
+├── last_ver.py # Model classes (Encoder/Decoder/Vocabulary)
 ├── dataset/
-│   └── subset_coco/           # Dataset folder
-│       ├── images/            # All training/test images
-│       │   ├── train2017/
-│       │   │   ├── 000000000001.jpg
-│       │   │   ├── 000000000002.jpg
-│       │   │   └── ...
-│       │   └── val2017/
-│       │       ├── 000000000001.jpg
-│       │       └── ...
-│       └── annotations/
-│           ├── captions_train2017.json
-│           └── captions_val2017.json
-│
-├                   
+└── subset_coco/ # Dataset folder
+├── images/ # All training/test images
+│ ├── train2017/
+│ │ ├── 000000000001.jpg
+│ │ ├── 000000000002.jpg
+│ │ └── ...
+│ └── val2017/
+│ ├── 000000000001.jpg
+│ └── ...
+└── annotations/
+├── captions_train2017.json
+└── captions_val2017.json
+├── README.md # Project documentation     
 │  
 │
 └── README.md                  # Project documentation
