@@ -1,0 +1,25 @@
+# ملفات النظام
+.DS_Store
+Thumbs.db
+
+# ملفات ثقيلة
+*.zip
+*.rar
+*.tar.gz
+*.exe
+*.iso
+
+# تبعيات
+node_modules/
+vendor/
+__pycache__/
+
+# بيانات
+*.sql
+*.db
+*.log
+
+# ملفات IDE
+.vscode/
+.idea/
+*.swp
